@@ -477,7 +477,8 @@
                 } );
             },
             changeColor : function () {
-               ;
+                const v_b = "v-light";
+                var isLight = body.hasClass( v_b );
 
                 $( "[data-dsn=\"color\"]" ).each( function () {
 
